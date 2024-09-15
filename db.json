@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Digital Watch",
+      "shortdesc":"Amazfit Active Edge Smart Watch with Stylish Rugged Sport & Fitness Design..",
+      "description": "Amazfit Active Edge Smart Watch with Stylish Rugged Sport & Fitness Design, GPS, 10 ATM Water Resistant, AI Health Coach for Gym, Outdoor, Workouts & Exercise, 16 Days Battery (Lava Black)",
+      "price": 10.00,
+      "image": "/images/watch.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Laptop",
+      "shortdesc":"(Refurbished) Dell Precision 7520 Intel Core i7 - 7920HQ Quad Core Processor...",
+      "description": "(Refurbished) Dell Precision 7520 Intel Core i7 - 7920HQ Quad Core Processor 7th Gen, 8 GB Ram & 128 GB SSD, 15.6 Inches (Numeric Keypad) FHD Screen with Nvidia Quadro M2200 (4GB Graphic Card) Laptop",
+      "price": 20.00,
+      "image": "/images/laptop.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Printer",
+      "shortdesc":"HP Deskjet 2820 Wired Colour Home Inkjet Printers, Copy, Scan...",
+      "description": "HP Deskjet 2820 Wired Colour Home Inkjet Printers, Copy, Scan, WiFi with Self Reset, Bluetooth, USB, Simple Setup Smart App, Ideal for Home.",
+      "price": 10.00,
+      "image": "/images/printer.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Monitor",
+      "shortdesc":"FRONTECH 22 Inch HD LED Monitor | Refresh Rate 60 Hz, 1680 X 1050 Pixels...",
+      "description": "FRONTECH 22 Inch HD LED Monitor | Refresh Rate 60 Hz, 1680 X 1050 Pixels | Wall Mountable Slim & Stylish Design with 16.7M Colors| HDMI & VGA Ports, Built-in Power Supply (MON-0060,Black)",
+      "price": 20.00,
+      "image": "/images/monitor.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Product 1",
+      "shortdesc":"boAt Stone 352 Bluetooth Speaker with 10W RMS Stereo Sound, IPX7 Water...",
+      "description": "boAt Stone 352 Bluetooth Speaker with 10W RMS Stereo Sound, IPX7 Water Resistance, TWS Feature, Up to 12H Total Playtime, Multi-Compatibility Modes and Type-C Charging(Raging Black)",
+      "price": 10.00,
+      "image": "/images/speaker.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Cooling Pad",
+      "shortdesc":"Cooler Master MasterAir MA410M CPU Liquid Cooler, 120mm",
+      "description": "Portronics My Buddy Air 4 Laptop Cooling Pad with Triple Cooling Fans, Multi-Level Height Adjustable, Mobile Holder, USB Powered, Metal Mesh Grill, for Upto 15.6 Inch Laptops (Black)",
+      "price": 20.00,
+      "image": "/images/cooler.jpg"
+    }
+  ]
+}
