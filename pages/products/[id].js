@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
 import { Container, Grid, Typography, Button, CircularProgress, Alert, Card, CardMedia, CardContent } from '@mui/material';
 import { addItem } from '../../store/cartSlice'; 
+import Head from 'next/head';
 import styles from '../../styles/ProductDetail.module.css';
 
 const ProductDetail = () => {
@@ -58,7 +59,13 @@ const ProductDetail = () => {
   }
 
   return (
-    <Container maxWidth="lg" className={styles.container}>
+    <>
+       <Head>
+        <title>{product.name} - Product Details</title>
+        <meta name="description" content={product.description} />
+        <meta name="keywords" content={`product, ${product.name}`} />
+      </Head>
+      <Container maxWidth="lg" className={styles.container}>
       <Typography variant="h3" component="h1" gutterBottom align="center" className={styles.header}>
         Product Details
       </Typography>
@@ -100,6 +107,7 @@ const ProductDetail = () => {
         </Grid>
       </Grid>
     </Container>
+    </>
   );
 };
 
