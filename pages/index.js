@@ -21,7 +21,7 @@ const Home = () => {
   }, [dispatch]);
 
   useEffect(() => {
-    axios.get('https://small-ecommerce-tau.vercel.app/products')
+    axios.get('http://localhost:5000/products')
       .then(response => {
         setProducts(response.data);
       })

@@ -17,7 +17,7 @@ const ProductDetail = () => {
 
   useEffect(() => {
     if (id) {
-      axios.get(`https://small-ecommerce-tau.vercel.app/products/${id}`)
+      axios.get(`http://localhost:5000/products/${id}`)
         .then(response => {
           setProduct(response.data);
         })

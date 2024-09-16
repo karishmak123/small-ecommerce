@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+     "start": "node server.js",
     "lint": "next lint",
     "start:mock-api": "json-server --watch db.json --port 5000"
   },
