@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { useState, useEffect } from 'react';
-import { addItem, setCartItems } from '../store/cartSlice'; // Import setCartItems
+import { addItem, setCartItems } from '../store/cartSlice'; 
 import axios from 'axios';
 import Link from 'next/link';
 import { Grid, Card, CardContent, CardMedia, Typography, Button } from '@mui/material';
@@ -60,6 +60,7 @@ const Home = () => {
                 height="140"
                 image={product.image}
                 alt={product.name}
+                sx={{ objectFit: 'contain' }}
               />
               <CardContent>
                 <Typography variant="h6" component="div">
