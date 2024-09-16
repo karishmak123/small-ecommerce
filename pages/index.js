@@ -21,7 +21,7 @@ const Home = () => {
   }, [dispatch]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/products')
+    axios.get('https://fake-api-eight-mu.vercel.app/products')
       .then(response => {
         setProducts(response.data);
       })

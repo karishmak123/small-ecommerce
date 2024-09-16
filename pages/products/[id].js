@@ -17,7 +17,7 @@ const ProductDetail = () => {
 
   useEffect(() => {
     if (id) {
-      axios.get(`http://localhost:5000/products/${id}`)
+      axios.get(`https://fake-api-eight-mu.vercel.app/products/${id}`)
         .then(response => {
           setProduct(response.data);
         })
